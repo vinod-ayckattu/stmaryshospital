@@ -1,0 +1,163 @@
+/*
+Theme Name: St Mary's Theme
+Author: Vinod H
+Version: 1.0
+*/
+body{
+    
+    font-family: 'Varela Round';
+    margin: 0px;
+    background-color: rgb(195, 255, 195);
+}
+body a {
+    text-decoration: none;
+}
+.custom_type_list a{
+    color: green;
+}
+.custom_type_list a:visited {
+    text-decoration: none;
+    color: green;
+}
+.custom_type_list a:hover{
+    color: blue;
+}
+.header_bar{
+    background-color: rgb(247, 220, 211);
+    height:70px;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+.site_name{
+    padding-top: 0px;
+    padding-left: 25px;
+    font-size: xx-large;
+    font-weight: bold;
+    float: left;
+    display: inline;
+}
+.site_name a{
+    color: red;
+    font-family: cursive;
+}
+.menu_item {
+    display: inline;
+    margin-left: 40px;
+    font-size: smaller;
+}
+.menu_item a{
+    color: green;
+  
+}
+.search_item {
+    color: green;
+    font-size:large;
+}
+.custom_type_list{
+    width: 425px;
+    height: 450px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+.custom_type_list p{
+    text-align: left;
+}
+.single_details{
+    margin-top: 30px;
+}
+.single_content{
+    width:60%;
+    float: left;
+}
+.search_form{
+    text-align: center;
+    margin: 20px;
+}
+.search_icon{
+    width: 25px;
+    height: 20px;
+    opacity: 1;  
+}
+#search_text{
+    width:98%;
+    height: 30px;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px solid;
+    float: none;
+    font-size: large;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#serch_text:focus{
+    outline:none;
+}
+#search_results ul{
+    list-style: none;
+    padding-left: 5px;
+    color: green;
+}
+
+.page_title{
+    text-align: center;
+}
+.form_item{
+    margin: 10px;
+}
+.image_div{
+width: 100%;
+}
+.main_image{
+    width:inherit;
+    height:15%;
+}
+#search_results{
+    padding-left:10px;
+    text-align: left;
+    float:none;
+    width: 98%;
+}
+.search_icon{
+    float: right;
+    width: 80px;
+    height: 80px;
+    border:8px solid green;
+    border-right: none;
+    cursor: pointer;
+}
+.searchbox_outer{
+    position: absolute;
+    right: 0px;
+    top: 10%;
+    z-index: 1;
+    width: 28%;
+}
+.search_box{
+    display:none;
+    text-align: left;
+    margin-right: 10px;
+    width: 70%;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px 10px;
+    float: right;
+}
+.smallfonts{
+    font-size: smaller;
+}
+.patient_info{
+        display: inline;
+        padding-right: 10px;
+        float: right;
+        font-size: smaller;
+        font-weight: bold;
+        color: brown;
+}
+.registration_error{
+    border-color: red !important;
+}
